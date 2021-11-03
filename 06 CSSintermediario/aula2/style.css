@@ -1,0 +1,22 @@
+h1{
+    text-transform: capitalize;
+    text-shadow: 2px 2px 0px red;
+}
+
+p{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps; /*fonte padrao times new roman*/
+    text-transform: capitalize;
+    text-indent: 30px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none; /*line through*/
+    letter-spacing: 10px;
+}

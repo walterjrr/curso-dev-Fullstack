@@ -1,0 +1,43 @@
+.container{
+    
+    display: flex;/*todos os filhos lado a lado        padrao flex direction row*/
+    /*flex-wrap: wrap-reverse;/* uma quebra*/
+    flex-direction: row;
+    /*flex-flow: direction wrap*/
+
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: space-around;
+
+    background-color: grey;
+}
+
+
+.caixa{
+    width: 100px;
+    height: 50px;
+}
+/*não importa mais o display dos filhos*/
+.red {
+    flex-grow: 2;
+    order: 3;/*valor padrao 0 a todos*/
+    align-self: center;
+    background-color: red;
+}
+
+.blue{
+    order: 4;
+    align-self: flex-end;
+    background-color: blue;
+}
+
+.yellow{
+    flex-grow: 3;
+    order: 1;
+    background-color: yellow;
+}
+
+.green{
+    order: 2;
+    background-color: green;
+}

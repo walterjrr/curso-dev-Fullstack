@@ -1,0 +1,55 @@
+body{
+    background: #dfdfdf5d;
+    font-family: 'Yaldevi', sans-serif;
+    color:darkgrey
+}
+ .container{
+     width: 900px;
+     margin: 0 auto;
+ }
+ .profile{
+     text-align: center;
+ }
+
+ .foto{
+     border: 5px solid white;
+     border-radius: 50%;
+     width: 250px;
+     height: 250px;
+     margin: 25px 35px 15px; /*espaçamento externo--> */
+     padding: 5px; /*espaçamento interno */
+     /*margin, border, padding === BOX MODELS */
+     box-shadow: 0.3px 0px 10px black;
+ }
+
+ h2{
+     margin-top: 0;
+     font-style: italic;
+     color: rgb(0, 0, 0);
+     font-weight: 100;
+     letter-spacing: -1;
+ }
+
+ h1{
+    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1;
+
+}
+p{
+    color:black
+}
+
+.social-icons{
+    width: 50px;
+    height: auto;
+}
+.social-links{
+    text-decoration: none;
+}
+
+.youtube{
+    margin: 0px 15px 0px 15px;
+}

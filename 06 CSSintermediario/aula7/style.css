@@ -1,0 +1,39 @@
+/*so esses dois elementos*/
+::selection{
+    color: saddlebrown;
+    background: black;
+}
+
+
+/*ALTERA UMA PARTE ESPECIFICA DO ELEMENTO*/
+/*unica forma de pegar a primeira linha*/
+p::first-line{
+    color: orange;
+}
+
+p::first-letter{
+    color: purple;
+    font-size: 24px;
+}
+
+
+/*adcionar uma imagem*/
+h1::before{
+    background: url(https://i.pinimg.com/originals/3e/26/d6/3e26d6754031f68dd0c9037434d4e8cd.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: '';
+    margin-right: 5px;
+}
+
+h1::after{
+    background: url(https://i.pinimg.com/originals/3e/26/d6/3e26d6754031f68dd0c9037434d4e8cd.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: '';
+    margin-left: 5px;
+}

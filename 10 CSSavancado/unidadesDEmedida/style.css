@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+}
+
+.box{
+    /*width: 2em; /*2 vezes o font-size /*faz mais sentido em fontes*/
+    width: 100%;
+    height: 95vh;
+    background: black;
+}
+
+.box2{
+    /*width: 2em; /*2 vezes o font-size /*faz mais sentido em fontes*/
+    width: 100%;
+    height: 100vh;
+    background: rgb(253, 0, 0);
+}
+
+p{
+    font-size: 2em;
+}
+
+/*2rem  R= root*/

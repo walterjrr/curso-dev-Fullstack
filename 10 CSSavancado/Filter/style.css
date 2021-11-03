@@ -1,0 +1,6 @@
+img{
+    filter: blur(10px);
+}
+.box{
+    filter: drop-shadow(15px);
+}

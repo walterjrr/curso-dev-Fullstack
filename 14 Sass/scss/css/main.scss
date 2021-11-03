@@ -1,0 +1,75 @@
+@import 'base';
+@import 'variables';
+@import 'mixin';
+@import 'extends';
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+    .box{
+        background-color: white;
+        color: $color-primary;
+        border-radius: 8px;
+        width: 30%;
+        padding: 10px;
+
+    &.active{
+        background: red;
+    }
+
+        h2{
+            font-size: 24px;
+            margin: {
+                top: 10px;
+                left: 20px;
+                right: 30px;
+                bottom: 22px;
+            }
+        }
+
+        p{
+            font-size: 18px;
+
+            &.hidden{
+              display: none  
+            }     
+        }
+
+        ul{
+            @include reset-list(10px, 10px, square);/*argumentos*//*funcoes*/
+        }
+
+        a{
+            color: green;
+
+
+            &:hover{
+                color: yellow;
+
+                & + p.hidden{
+                    display: block;
+                }
+            }
+        }
+
+
+        .success{
+            @extend %box-alert;
+            @include bg-effect(success);
+        }
+
+        .warning{
+            @extend %box-alert;
+            @include bg-effect(warning);
+        }
+
+        .danger{
+            @extend %box-alert;
+            @include bg-effect(danger);
+        }
+    }
+
+}

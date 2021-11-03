@@ -1,0 +1,15 @@
+body{
+    background: url(https://img.freepik.com/free-vector/wavy-background-with-copy-space_52683-65230.jpg?size=338&ext=jpg);
+    background-size: cover;
+}
+ul{
+    background-color: grey;
+    padding: 30px;
+    /*display: none; esconde um elemento*/
+    /*visibility: hidden; apenas não dá pra ver*/
+    opacity: 0.3;
+}
+ul li{
+    display: inline;
+    margin: 10px;
+}

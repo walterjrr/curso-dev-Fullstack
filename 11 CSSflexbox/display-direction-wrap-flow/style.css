@@ -1,0 +1,31 @@
+.container{
+    
+    display: flex;/*todos os filhos lado a lado        padrao flex direction row*/
+    flex-wrap: wrap-reverse;/* uma quebra*/
+    flex-direction: row;
+
+
+    background-color: grey;
+}
+
+
+.caixa{
+    width: 100px;
+    height: 50px;
+}
+/*não importa mais o display dos filhos*/
+.red {
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

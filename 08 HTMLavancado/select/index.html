@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="Form-input-button/salvar.html" method="GET">
+
+        <fieldset>
+          <legend>Dados do Usuarios</legend>
+
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Digite seu nome">
+
+
+            <br><br>
+            <label>Email</label>
+            <input name="email" type="email" placeholder="Digite seu email">
+
+
+            <br><br>
+            <label>password</label>
+            <input name="password" type="password" placeholder="senha">
+            
+            <!--<input type="button" value="Enviar">-->
+
+            <br><br>
+            <input type="color" name="color">
+
+            <br><br>
+            <label>Sexo</label> <br>
+            <input name="sexo" type="radio" value="masculino"> <label>Masculino</label> <br>
+            <input name="sexo" type="radio" value="feminino"> <label>Feminino</label>  <br>
+            <input name="sexo" type="radio" value="nao definido"> <label>Prefiro não informar</label>
+
+            <br><br>
+
+            <label>Habilidades!</label>
+            <br>
+            <input type="checkbox" name="habilidades" value="html" id="html"> <label for="html">HTML</label> <BR></BR>
+            <input type="checkbox" name="habilidades" value="css" id="css"> <label for="css">CSS</label> <br><br>
+            <input type="checkbox" name="habilidades" value="javascript" id="javascript"> <label for="javascript">JAVASCRIPT</label> <br><br>
+            <input type="checkbox" name="habilidades" value="react" id="react"> <label for="react">REACT</label><br><br>
+
+            <br><br>
+
+            <label for="">Cities</label>
+            <br>
+            <select name="Cities">
+                <option selected value="">... select ...</option>
+                <option value="abreu e lima">Abreu e lima</option>
+                <option value="jaboatao">Jaboatao</option>
+                <option value="olinda">Olinda</option>
+                <option value="recife">Recife</option>
+            </select>
+
+            <br><br>
+
+            <label for="">Cars</label>
+            <select name="cars" id="">
+                    <optgroup label="Honda">
+                        <option value="Civic">Civic</option>
+                    </optgroup>
+                    <optgroup label="GM">
+                        <option value="celta">Celta</option>
+                    <optgroup label="Fiat">
+                        <option value="Uno">Uno</option>
+                    </optgroup> 
+            </select>
+
+            <br><br>
+
+            <label>Type the fruit</label>
+            <input list="fruitsList" type="text" name="fruits" placeholder="type the fruit">
+
+            <datalist id="fruitsList">
+                <option value="abacate">
+                <option value="Abacaxi">
+                <option value="Açai">
+                <option value="Acerola">
+            </datalist>
+
+
+            <br><br>
+            <label>Digite uma mensagem</label>
+            <br>
+            <textarea name="mensage"cols="50" rows="10"></textarea>
+
+            <br><br>
+            <button>Enviar</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>
